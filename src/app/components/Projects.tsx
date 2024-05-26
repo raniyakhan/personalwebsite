@@ -6,7 +6,7 @@ import astro from './astro.png';
 const Projects = () => {
   return (
     <div className="random">
-      <h2 className="wow">some things i've worked on...</h2> 
+      <h2 className="wow">some things i&apos;ve worked on...</h2> 
       <div className="projects">
       <div className="project-card">
           <img src={astro.src} alt="AstroLand" className="project-image" />
