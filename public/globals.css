@@ -5,6 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 /* @import url('/src/app/fonts/Quinlliyk.ttf'); */
 
+@import url('https://fonts.googleapis.com/css2?family=Moirai+One&display=swap');
 
 @font-face {
   font-family: 'CustomFont';
@@ -34,7 +35,7 @@
 
 body {
   margin: 0;
-  font-family: 'Roboto Mono';
+  font-family: 'DM Serif Display';
   background-color: #f5f5f5;
   background-image: url('https://github.com/raniyakhan/font/blob/main/grid.png?raw=true');
   background-size: 100% auto;
@@ -57,7 +58,9 @@ body {
 } */
 #Raniya {
   font-size:100px;
-  font-family: 'CustomFont';
+  font-family: 'Moirai One';
+  font-weight: 1000;
+  font-style: normal;
 }
 
 /* #name {
@@ -105,9 +108,11 @@ body {
   justify-content: center; /* Center the nav items */
   align-items: center;
   gap: 20px; /* Space between nav items */
-  font-family: 'code'; /* Change font */
+  /* font-family: 'code';  */
+  /* Change font */
   padding: 10px 10px; 
-  /* Reduce padding */
+  font-family: "Roboto Condensed", sans-serif;
+
   
   border-radius: 30px; /* Rounded corners */
   /* box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);  */
@@ -155,14 +160,14 @@ body {
 #about {
   background-color: rgb(211, 244, 255);
   transition: background-color 0.5s ease, transform 0.5s ease;
-  font-family: "code";
+  /* font-family: "code"; */
   /* text-transform: uppercase; */
   /* width:80%; */
   /* font-family: "DM Serif Display", serif; */
   /* font-family: "Playfair Display", serif; */
-  /* font-family: "Roboto Condensed", sans-serif; */
+  font-family: "Roboto Condensed", sans-serif;
   /* font-family: "Playfair Display", serif; */
-  font-family: "Barlow", sans-serif;
+  /* font-family: "Barlow", sans-serif; */
   font-size: 120%;
   /* font-style: italic; */
 }
@@ -177,7 +182,9 @@ body {
   width: 75%;
   justify-self: center;
   margin-top: 6%;
-  font-family: "code";
+  /* font-family: "code"; */
+  font-family: 'Roboto Mono', sans-serif;
+
   text-transform: uppercase;
 }
 
@@ -202,8 +209,8 @@ body {
 
 .section h2 {
   font-size: 24px;
-  /* font-family: 'Roboto Mono', sans-serif; */
-  font-family: "code";
+  font-family: 'Roboto Mono', sans-serif;
+  /* font-family: "code"; */
   
   font-weight: 350;
 }
@@ -261,8 +268,8 @@ body {
   margin-bottom: 10px;
   text-align: center;
   transition: color 0.1s ease-in-out;
-  /* font-family: 'Roboto Mono', monospace; */
-  font-family: "Barlow", sans-serif;
+  font-family: 'Roboto Mono', monospace;
+  /* font-family: "Barlow", sans-serif; */
 }
 
 .project-description {
@@ -275,8 +282,8 @@ body {
   flex-wrap: wrap;
   gap: 5px;
   justify-content: center;
-  /* font-family: 'Roboto Mono', monospace; */
-  font-family: "Barlow", sans-serif;
+  font-family: 'Roboto Mono', monospace;
+  /* font-family: "Barlow", sans-serif; */
 }
 
 .tech-tag {
@@ -333,18 +340,20 @@ body {
   /* background-color: #f7c3d3; */
   /* border-radius: 20px; */
   /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
-  font-family: "code";
+  /* font-family: "code"; */
   text-transform: uppercase;
+  font-family: 'Roboto Mono', sans-serif;
+
 }
 
 .connect h2 {
   font-size: 28px;
-  /* font-family: 'Roboto Mono', sans-serif; */
+  font-family: 'Roboto Mono', sans-serif;
   /* margin-bottom: 30px; */
   color: #333;
   margin-right:7%;
   margin-left:2%;
-  font-family: "code";
+  /* font-family: "code"; */
 }
 
 .connect-links {
@@ -360,8 +369,8 @@ body {
   align-items: center;
   text-decoration: none;
   color: #333;
-  /* font-family: 'Roboto Mono', monospace; */
-  font-family: "code";
+  font-family: 'Roboto Mono', monospace;
+  /* font-family: "code"; */
   transition: transform 0.3s ease, background-color 0.3s ease;
   padding: 10px;
   border-radius: 10px;
@@ -404,14 +413,14 @@ body {
 
 .where h2 {
   font-size: 28px;
-  /* font-family: 'Roboto Mono', monospace; */
+  font-family: 'Roboto Mono', monospace;
   /* font-family: "Barlow", sans-serif; */
   margin-bottom: 20px;
   color: #333;
   position: absolute;
   top: -30px;
   left: 20px;
-  font-family: "code";
+  /* font-family: "code"; */
 }
 
 .location-wrapper {
@@ -425,7 +434,9 @@ body {
   font-size: 24px;
   /* font-family: 'Roboto Mono', monospace; */
   /* font-family: "Barlow", sans-serif; */
-  font-family: "code";
+  /* font-family: "code"; */
+  font-family: 'Roboto Mono', sans-serif;
+
   color: rgb(211, 49, 159);
   margin-right: 2%;
   margin-left: 6%;
