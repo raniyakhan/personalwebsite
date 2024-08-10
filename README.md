@@ -1,6 +1,6 @@
 # My Personal Website
 
-Hello! This is the repository for my personal website built using Next.js. The website showcases my portfolio, projects, and other personal information.
+Hello! This is the repository for a personal website built I built using Next.js. I kind of think its ugly now. At the time, I was just having fun improving my front-end skills. Don't mind it too much 🙏
 
 ## Features
 
@@ -11,12 +11,9 @@ Hello! This is the repository for my personal website built using Next.js. The w
 
 ## Technologies
 
-This project utilizes several modern web development technologies:
-
 - **Next.js:** A React framework that enables server-side rendering and static site generation.
 - **React:** A JavaScript library for building user interfaces.
 - **TypeScript:** A typed superset of JavaScript that improves development experience and code quality.
 - **CSS Modules:** For scoped and maintainable CSS.
 - **React Scroll:** For smooth scrolling navigation.
-- **Custom Fonts:** Integrated custom fonts using `@font-face` for unique typography.
 - **Vercel:** For easy and efficient deployment of the website.
