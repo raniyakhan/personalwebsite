@@ -1,6 +1,6 @@
 # My Personal Website
 
-Hello! This is the repository for a personal website built I built using Next.js. I kind of think its ugly now. At the time, I was just having fun improving my front-end skills. Don't mind it too much 🙏
+This is the repository for a personal website built I built using Next.js. I kind of think its ugly now.
 
 ## Features
 
